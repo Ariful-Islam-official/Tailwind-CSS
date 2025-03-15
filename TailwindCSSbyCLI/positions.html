@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Positions with Tailwind CSS</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body>
+    <!-- How to apply Positions -->
+
+    <div class="size-30 bg-red-500 absolute bottom-0 right-0 "></div>
+    <div class="size-30 bg-green-500 absolute top-0 right-0 "></div>
+    <div class="size-30 bg-red-400 absolute top-0 left-0  "></div>
+    <div class="size-30 bg-green-400 absolute bottom-0 left-0  "></div>
+    
+    <!-- Apply Top, Right, Left, Buttom with positions -->
+        <div class="size-70 bg-black relative ">
+        <!-- must neet to parent div has relative position  -->
+        <div class="size-10 bg-red-500 absolute bottom-0 right-0 "></div>
+        <div class="size-10 bg-green-500 absolute top-0 right-0 "></div>
+        <div class="size-10 bg-red-400 absolute top-0 left-0  "></div>
+        <div class="size-10 bg-green-400 absolute bottom-0 left-0  "></div>
+    </div>
+    <!-- Apply Inset with Position -->
+     <div class="bg-black size-70 relative">
+        <div class="bg-green-500 size-30 absolute inset-6 " ></div>
+     </div>
+
+     <!-- Fix Position -->
+    <div class="bg-amber-700 text-white fixed z-10">Code with Ariful</div>
+    </body>
+</html>
